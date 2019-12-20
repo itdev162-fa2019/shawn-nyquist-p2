@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     line-height: 1;
     color: #202020;
-    background-color: #fafafe;
+    background-color: #E1E1E1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
@@ -28,4 +28,9 @@ export const StoriesContainerWrapper = styled.main`
     max-width: 1140px;
     padding: 20px 15px;
     margin: auto;
+`;
+
+export const TitleImage = styled.img` 
+    position: relative;
+    right: 50 px;
 `;
